@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chat with ShivaBot</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#1f1f1f; --fg:#e8e8e8; --accent:#64FFDA;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      background:var(--bg); color:var(--fg);
+      display:flex; min-height:100dvh; align-items:center; justify-content:center;
+      padding:28px;
+    }
+    .wrap{width:min(100%, 980px); text-align:center}
+    h1{margin:0 0 8px; font-weight:600}
+    p{margin:0 0 18px; opacity:.85}
+    .frame{
+      width:100%; height:640px; border:0; border-radius:16px;
+      box-shadow:0 10px 28px rgba(0,0,0,.35);
+      outline:1px solid rgba(100,255,218,.18);
+    }
+    .cta{
+      margin-top:14px; font-size:14px; opacity:.75
+    }
+    a{color:var(--accent); text-decoration:none}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>💬 Chat with <span style="color:var(--accent)">ShivaBot</span></h1>
+    <p>Ask me about Siva Sankar Sai Irlapati’s skills, projects, resume, or contact info.</p>
+
+    <iframe
+      class="frame"
+      src="https://www.chatbase.co/chatbot/MHecihVX7IbCMX36bf2JG?embedded=true"
+      allow="microphone; autoplay">
+    </iframe>
+
+    <div class="cta">Built with Chatbase · <a href="https://github.com/rocky3419" target="_blank">GitHub</a></div>
+  </main>
+</body>
+</html>
